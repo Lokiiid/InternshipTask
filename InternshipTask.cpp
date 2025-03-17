@@ -10,7 +10,7 @@ int main()
 {
     vector < vector<int> > graph;
     int nodeCount, start, edgeCount, a, b;
-    ifstream f("graph.txt");
+    ifstream f("graph.txt"); // Открывается файл graph.txt находящийся там же где и .cpp файл с кодом программы
     string line;
     if (f.is_open()) {
         getline(f, line);
