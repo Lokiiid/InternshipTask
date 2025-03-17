@@ -56,6 +56,7 @@ int main()
     for (int i = 0; i < nodeCount; i++) {
         cout << distance[i] << endl;
     }
+    f.close();
     return 0;
 }
 
